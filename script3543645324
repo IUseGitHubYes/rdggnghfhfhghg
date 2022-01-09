@@ -1,0 +1,13 @@
+ for i,v in pairs(game.Players:GetChildren()) do
+plrs = v.Name
+lp = game.Players.LocalPlayer
+if v.Name ~= lp.Name then
+game.ReplicatedStorage.Remotes.Damage:InvokeServer(game.Workspace:FindFirstChild(plrs).Humanoid, "katana")
+game.ReplicatedStorage.Remotes.Damage:InvokeServer(game.Workspace:FindFirstChild(plrs).Humanoid, "katana")
+game.ReplicatedStorage.Remotes.Damage:InvokeServer(game.Workspace:FindFirstChild(plrs).Humanoid, "katana")
+game.ReplicatedStorage.Remotes.Damage:InvokeServer(game.Workspace:FindFirstChild(plrs).Humanoid, "katana")
+game.ReplicatedStorage.Remotes.Damage:InvokeServer(game.Workspace:FindFirstChild(plrs).Humanoid, "katana")
+game.ReplicatedStorage.Remotes.Damage:InvokeServer(game.Workspace:FindFirstChild(plrs).Humanoid, "katana")
+game.ReplicatedStorage.Remotes.Damage:InvokeServer(game.Workspace:FindFirstChild(plrs).Humanoid, "katana")
+end
+end
